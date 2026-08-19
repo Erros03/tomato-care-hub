@@ -75,10 +75,6 @@ export function AppShell({
 }) {
   const [open, setOpen] = useState(false);
 
-  useEffect(() => {
-    initIonic();
-  }, []);
-
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Desktop sidebar */}
